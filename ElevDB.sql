@@ -1,4 +1,5 @@
---drop database ElevDB
+
+-- --drop database ElevDB
 --go
 --create database ElevDB
 --go
@@ -14,7 +15,7 @@
 --select * from ElevDB.INFORMATION_SCHEMA.TABLES
 --select * from sys.tables
 --drop database ElevDB
-
+-- trallalalalalallalalal
 if not exists(select * from sys.Databases where name = 'ElevDB')
 begin
    create database ElevDB
